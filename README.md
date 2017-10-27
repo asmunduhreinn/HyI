@@ -8,14 +8,14 @@ The python code can be executed using the following structure:
 python network_metrics.py -i --input_file -m --metric_type -o -output_file
 
 Metric type can be one of the following:
-	"hypergeometric"
-	"jaccard"
-	"PCC"
+	"hypergeometric",
+	"jaccard",
+	"PCC" or 
 	"simpson"
 
 Example:
 python network_metrics.py -i example.txt -m hypergeometric -o example_output.txt
 
 There is also provided an example network on which to apply the method, and the result after applying it (using Hypergeometric index):
-example.txt
-example_output.txt
+"example.txt" and 
+"example_output.txt" files.
