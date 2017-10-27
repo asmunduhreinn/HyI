@@ -11,7 +11,7 @@ Metric type can be one of the following:
 	"hypergeometric",
 	"jaccard",
 	"PCC" or 
-	"simpson"
+	"simpson".
 
 Example:
 python network_metrics.py -i example.txt -m hypergeometric -o example_output.txt
